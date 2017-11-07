@@ -1,0 +1,28 @@
+Test 1: size of empty list is zero: PASSED
+Test 2: size returns correct value after 1 addFront: PASSED
+Test 3: size returns correct value after 1 removeFront: returned size 1: FAILED
+Test 4: size returns correct value after 1 addBack: PASSED
+Test 5: size returns correct value after 1 removeBack: returned size 1: FAILED
+Test 6: false returned after emptying list from front: PASSED
+Test 7: false returned after emptying list from back: PASSED
+Test 8: removeFront() removes first in list: FAILED
+Test 9: removeBack() removes last in list: FAILED
+Test 10: add front one to list and search returns true: PASSED
+Test 11: add back one to list and search returns true: PASSED
+Test 12: size returns correct value after 100 addFront: PASSED
+Test 13: size returns correct value after 100 addFront and 50 removeFront: vector size 100: FAILED
+Test 14: size returns correct value after 100 addBack: PASSED
+Test 16: size returns correct value after 100 addBack and 50 removeBack: vector size 100: FAILED
+Test 17: remove front does not remove back: FAILED
+Test 18: remove back does not remove front: FAILED
+Test 19: remove front removes a node: FAILED
+Test 20: remove back removes a node: FAILED
+Test 21: add front 100 nodes and search front, middle, end: PASSED
+Test 22: add back 100 nodes and search front, middle, end: PASSED
+Test 23: add front 100 nodes and search outside of range: PASSED
+Test 24: add back 100 nodes and search outside of range: PASSED
+Test 25: 100 removeFront to remove 100 nodes: 1 removes used: FAILED
+Test 26: 100 removeBack to remove 100 nodes: 1 removes used: FAILED
+Tests complete: 13 of 26 passed.
+
+From tests it seems that the removeFront and removeBack always return false and are not removing any elements from the List. From tests, addFront and addBack appear to work as expected. Adding using either also results in the correct behavior of the search method.
